@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main - main block
-*Return : 0
-*a program that prints the alphabet in lowercase, and then in uppercase
+* main - main block
+* Return: 0
+* a program that prints the alphabet in lowercase, and then in uppercase
 */
 int main(void)
 {
@@ -12,7 +12,7 @@ while (alphabet <= 'z')
 putchar(alphabet);
 alphabet++;
 }
-c = 'A'
+c = 'A';
 while (alphabet <= 'Z')
 {
 putchar(alphabet);
