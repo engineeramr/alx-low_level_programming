@@ -2,12 +2,23 @@
 /**
  * main - Entry point
  *
- * Description: A program that prints all possible combinations of single-digit n
+ * Description: prints all possible combinations of single-digit n
  *
  * Return: 0 (success)
  *
 */
 int main(void)
 {
-  return(0)
+int n = 0;
+while (n <= 9)
+{
+putchar(n + 48);
+if (n != 9)
+{
+putchar(',');
+putchar('');
+}
+n++;
+}
+return (0);
 }
