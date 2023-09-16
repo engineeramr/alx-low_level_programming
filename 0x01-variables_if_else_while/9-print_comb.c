@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: prints all possible combinations of single-digit n
+ * Description: printss all possible combinations of single-digit n
  *
  * Return: 0 (success)
  *
