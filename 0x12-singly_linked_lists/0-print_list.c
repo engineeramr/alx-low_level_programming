@@ -1,11 +1,12 @@
+#include <stdio.h>
 #include "lists.h"
+
 /**
- * _strlen - returns the length of a string
+ * print_list - prints all the elements of a linked list
+ * @h: pointer to the list_t list to print
  *
- * @s: the string whose length to check
- *
- * Return: integer lenght of string
-*/
+ * Return: the number of nodes printed
+ */
 size_t print_list(const list_t *h)
 {
 	size_t n = 0;
